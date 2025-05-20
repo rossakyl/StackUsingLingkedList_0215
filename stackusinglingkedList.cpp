@@ -44,6 +44,10 @@ public:
 
             cout << "Stack is Empty" << endl;
         }
+
+        cout << "Popped Value: " << top->data << endl;  //Menambah logika untuk memaparkan nilai yang dipop
     }
+
+   
 
 };
