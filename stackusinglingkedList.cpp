@@ -48,6 +48,13 @@ public:
         cout << "Popped Value: " << top->data << endl;  //Menambah logika untuk memaparkan nilai yang dipop
     }
 
-   
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is Empty." << endl;       //Tetap menyertakan pengecekan isEmpty() agar tidak dereference top saat stack kosong
+        }
+        
+    }
 
 };
