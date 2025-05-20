@@ -54,7 +54,22 @@ public:
         {
             cout << "List is Empty." << endl;       //Tetap menyertakan pengecekan isEmpty() agar tidak dereference top saat stack kosong
         }
-        
+        else
+        {
+            
+            Node*current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " " << endl;
+                current = current->next;
+            }
+            cout << endl;
+        }
     }
+
+    
+
+
+
 
 };
