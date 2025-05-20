@@ -109,5 +109,16 @@ int main()
                     << endl;
                 }
                 break;
+            case 3:
+                if (!stact.isEmpty())
+                {
+                    stact.peek();
+                }
+                else
+                {
+                    cout << "Stact is Empety. No top Value."
+                    << endl;
+                }
+                break;
         }
 }
